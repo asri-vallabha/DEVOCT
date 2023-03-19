@@ -1,23 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * > * {
     font-family: "Poppins", cursive;
     margin: 0;
-}
+}  */
 
-body{
-  background: #1E1E1E;;  /* fallback for old browsers */ 
+/* body{
+  background: #1E1E1E;
+   /* fallback for old browsers */ 
                           /* Chrome 10-25, Safari 5.1-6 */
-                          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
   
 }
 
-.App {
+.App{
+      width: 100vw;
+      height: 100vh;
+      padding: 34px 64px 34px 68px;
+} */
+.App{
+  width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  overflow: hidden;
+  justify-content: center;
+  background: #1E1E1E;
+  overflow:visible;
+
+
 }
+
 

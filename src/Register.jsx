@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImg from "./assets/Vector.jpg"
+import bgImg from "./assets/img.jpg"
 import facebook from "./assets/facebook.jpg"
 import google from "./assets/Google.jpg"
 import linkedin from "./assets/Linkedin.jpg"
@@ -10,9 +10,12 @@ import "./Register.css"
 export default function Register(){
     return(
         <section>
+            <div> 
             <div className='register'>
-            <img src={logo} alt=""/>
             <div className='col-1'>
+                <div>
+                    <img  className="imglogo" src={logo} alt=""/>
+                </div>
                 <div className='span'>
                 <snap>Create account</snap>
                 </div>
@@ -24,20 +27,18 @@ export default function Register(){
                     <p><span><input type="checkbox"/></span> I have read and accepted the <a href="#" class="Termsandconditions-link">Terms and conditons </a>to Devoct</p>
                     
         
-                    <button className='btn'>Create account</button>
+                    <button className='Text'>Create account </button>
                     <hr/>
                     <p className='or'>Or sign up with</p>                    
 							<div className="flex-c-m">
 								<a href="#" className="facebook">
-									<img src={facebook} alt=""/>
+									<img src={facebook} alt="" />
                                 </a>
 								<a href="#" className="google">
-									<i className="fa fa-twitter"/>
-                                    <img src={google} alt=""/>
+                                    <img src={google} alt="" />
 								</a>
 								<a href="#" className="linkedin">
-									<i className="fa fa-google"/>
-                                    <img src={linkedin} alt=""/>
+                                    <img src={linkedin} alt="" />
 								</a>
 							</div>
                             <p className='P'> Already have an account? <a href="#" class="SignIn">Sign In </a></p>
@@ -49,6 +50,9 @@ export default function Register(){
                 <img src={bgImg} alt=""/>
             </div>
             </div>
+
+            </div>
+            
         </section>
     )
 }

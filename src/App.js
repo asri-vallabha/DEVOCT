@@ -1,4 +1,4 @@
-import './App.css';
+import './Register.css';
 import Register from './Register';
 
 function App() {
@@ -8,5 +8,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
