@@ -1,11 +1,10 @@
 import React from 'react'
-import bgImg from "./assets/img.jpg"
+import bgImg from "./assets/Img.png"
 import facebook from "./assets/facebook.jpg"
 import google from "./assets/Google.jpg"
 import linkedin from "./assets/Linkedin.jpg"
-import logo from "./assets/devoct.jpg"
+import logo from "./assets/DevOct.png"
 import "./Register.css"
-
 
 export default function Register(){
     return(
@@ -24,9 +23,7 @@ export default function Register(){
                     <input type='text' placeholder='Email Address'/>
                     <input type='text' placeholder='Password'/>
                     <input type='text' placeholder='Confirm Password'/>
-                    <p><span><input type="checkbox"/></span> I have read and accepted the <a href="#" class="Termsandconditions-link">Terms and conditons </a>to Devoct</p>
-                    
-        
+                    <p><span><input type="checkbox"/></span> I have read and accepted the <a href="#" class="Termsandconditions-link">Terms and conditons </a>to Devoct</p> 
                     <button className='Text'>Create account </button>
                     <hr/>
                     <p className='or'>Or sign up with</p>                    
@@ -41,7 +38,7 @@ export default function Register(){
                                     <img src={linkedin} alt="" />
 								</a>
 							</div>
-                            <p className='P'> Already have an account? <a href="#" class="SignIn">Sign In </a></p>
+                            <span className='account'> Already have an account? <a href="#" class="SignIn">Sign In </a></span>
                 </form>
             </div>
             <div className='col-2'>

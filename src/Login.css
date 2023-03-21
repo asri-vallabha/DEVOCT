@@ -1,0 +1,145 @@
+
+.login{
+            position:absolute;
+            max-width:1200px;
+            height: 550px;
+            width: 100vw;
+            top: 40px;
+            left: 100px;
+            right: 100px;
+            bottom: 40px;
+            display:flex;
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            box-shadow: 1px 3px 10px #e9ecef; 
+            background-color: white;
+}
+.login .col-1{
+            width:650px;
+}
+.login .col-1 .imglogo{
+            width: 120px;
+            height: 120px;
+            left: 50px;
+            position: absolute;
+            top:-20px
+}
+.login .col-1 .span{
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 45px;
+            letter-spacing: 0em;
+            margin-left: 129px;
+            margin-top: 25px;
+}
+#form{
+            max-width: 320px;
+            width: 100vw;
+            margin:25px auto;
+}
+#form > input{
+             font-family: Inter;
+             font-size: 15px;
+             font-weight: 400;
+             line-height: 22px;
+             font-style: Mixed;
+             align-content: left;
+             vertical-align: Top;
+             height: 15px;
+             padding: 8px 5px;
+             background: #F1F1F1;
+             border-radius: 8px;
+             border: none;
+             outline: none;
+}
+#form > p{
+            font-family: Inter;
+            font-size:14px;
+            letter-spacing: 0.01em;
+            margin-top: 5px;
+            display: flex;
+            justify-content:space-between;
+}
+#form > .a,.Forgotpassword{
+            color: #56A6B1;
+
+}
+#form > button{
+            background-color: #B8D8E0;
+            border: none;
+            outline: none;
+            padding: 8px;
+            border-radius: 4px;
+}
+#form > .Text{
+            background: #56A6B1;
+            letter-spacing:0.03em;
+            font-size: 13px;
+            font-weight: 550;
+            cursor: pointer;
+            color: #000404;
+            text-align:center;
+}
+#form > .Create{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 160%;
+            margin-top: 10px;
+            text-align: center;
+}
+#form > .a, .Createaccount{
+            color: #56A6B1;
+}
+.flex{
+            display: flex;
+            gap: 1em;
+}
+.flex-col{
+            flex-direction: column;
+}
+.login .col-1{
+            margin: auto;
+            padding: 3em 0;
+}
+.login .col-2{
+            background: #B8D8E0;
+            width: 700px
+
+}
+.login .col-2 h1{
+            font-family: Inter;
+            font-size: 42px;
+            font-weight: 1000;
+            line-height: 63px;
+            letter-spacing: 0em;
+            
+            height:34px;
+            width: 400px;
+            border-radius: nullpx;
+            margin-top: 70px;
+            margin-left: 120px;
+            text-align: center;
+}
+.login .col-2 h3{
+            height:70px;
+            width: 293px;
+            font-size: 16px;
+            margin-left: 160px;
+            margin-top: -10px;
+            border-radius: nullpx;
+            text-align: center;
+}
+.login .col-2 img{
+            margin-left: 125px;
+            width: 375px;
+            height: 59%;
+            background-color: #B8D8E0;
+}
+@media screen and (min-width: 860px)  {
+.login .col-2 img{
+            display: initial;
+}
+}

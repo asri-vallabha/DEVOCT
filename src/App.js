@@ -1,5 +1,5 @@
-import './Register.css';
-import Register from './Register';
+import './App.css';
+import Register from "./Register"
 
 function App() {
   return (
@@ -8,6 +8,4 @@ function App() {
     </div>
   );
 }
-
-
 export default App;
